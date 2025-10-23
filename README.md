@@ -1,2 +1,5 @@
-# web-340
-Bellevue University - WEB 340 Node.js
+# WEB 340 Node.js
+
+## Contributors
+- Instructor: Richard Krasso
+- Student: Michelle Baird
