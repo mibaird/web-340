@@ -1,23 +1,40 @@
+"use strict";
+
 /**
- * Author:
- * Date:
- * File Name:
+ * Author: Michelle Baird
+ * Date: October 30, 2025
+ * File Name: recipes.js
  * Description:
 */
 
 // Define the createRecipe function
 function createRecipe(ingredients) {
-  // TODO: Implement this function
+  let message = "Recipe created with ingredients: ";
+
+// loop through the array and add each ingredient to the message
+  for (let i = 0; i < ingredients.length; i++) {
+    message += ingredients[i];
+    if (i < ingredients.length - 1) {
+      message += ", ";
+    }
+  }
+
+  return message;
 }
 
 // Define the setTimer function
 function setTimer(minutes) {
-  // TODO: Implement this function
+  return "Timer set for " + minutes + " minutes";
 }
 
 // Define the quit function
 function quit() {
-  // TODO: Implement this function
+  return "Program exited";
 }
 
-// TODO: Export the functions
+// Export the functions
+module.exports = {
+  createRecipe: createRecipe,
+  setTimer: setTimer,
+  quit: quit
+};

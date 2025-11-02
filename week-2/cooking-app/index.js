@@ -1,10 +1,21 @@
 /**
- * Author:
- * Date:
- * File Name:
+ * Author:Michelle Baird
+ * Date: October 30, 2025
+ * File Name: index.js
  * Description:
 */
 
-// TODO: Import your module using require
+//Import your module using require
+const { createRecipe, setTimer, quit } = require("./recipes");
 
-// TODO: Implement your CLI program here
+//Test createRecipe
+const ingredients = ["ingredient1", "ingredient2"];
+console.log(createRecipe(ingredients));
+
+//Test setTimer
+let timerMessage = setTimer (15);
+console.log(timerMessage);
+
+//Test quit
+quit();
+console.log(quit());

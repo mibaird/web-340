@@ -1,0 +1,12 @@
+{
+  "name": "cooking-app",
+  "version": "1.0.0",
+  "description": "Node.js Recipe App - Michelle Baird",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node tester.js"
+  },
+  "author": "Michelle Baird",
+  "license": "ISC"
+}
